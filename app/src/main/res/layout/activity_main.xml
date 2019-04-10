@@ -1,0 +1,30 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/general_margin_top">
+
+    <EditText
+        android:id="@+id/enter_name_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_name_string" />
+
+    <Button
+        android:id="@+id/save_name_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/enter_name_edit"
+        android:layout_marginTop="@dimen/general_margin_top"
+        android:text="@string/save_button" />
+
+    <Button
+        android:id="@+id/log_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/enter_name_edit"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="@dimen/general_margin_top"
+        android:text="@string/log_names_string" />
+
+</RelativeLayout>
